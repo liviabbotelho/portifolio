@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <title>Meu portfolio</title>
+    <!-- Adicionando bibliotecas necessárias para utilizar o Bootstrap 4 -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+      integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+      integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js"
+      integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+"
+      crossorigin="anonymous"
+    ></script>
+    <!-- Script para utilizar kits de icones da font awesome-->
+    <script
+      src="https://kit.fontawesome.com/3637c75693.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <!-- Bootstrap 4 Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="#">Lívia Barcellos Botelho</a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto"></ul>
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="#sobre-mim">Sobre mim</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#educacao">Educação</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#projetos">Meus projetos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contato">Contato</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <section class="jumbotron text-center">
+      <div class="container">
+        <!-- Utilizei o site imgbox para hospeder a imagem -->
+        <a href="https://imgbox.com/eD8MyhS4" target="_blank"
+          ><img
+            class="foto-perfil"
+            src="https://thumbs2.imgbox.com/1e/b9/eD8MyhS4_t.jpeg"
+            alt="image host"
+        /></a>
+        <h1 class="jumbotron-heading">Lívia Barcellos Botelho</h1>
+        <p class="lead text-muted">
+          Estudante de Engenharia de Software - Desenvolvedora Junior
+        </p>
+        <p>
+          <a href="#" class="btn btn-dark my-2">Contato</a>
+        </p>
+        <a
+          href="https://www.linkedin.com/in/l%C3%ADvia-barcellos-botelho-7621a8190/"
+          ><i class="fab fa-linkedin"></i
+        ></a>
+        <a href="https://github.com/liviabbotelho"
+          ><i class="fa-brands fa-github"></i
+        ></a>
+
+        <a href="https://www.instagram.com/liviabbotelho/"
+          ><i class="fa-brands fa-instagram"></i
+        ></a>
+      </div>
+    </section>
+
+    <!--Sessão Sobre Mim-->
+    <section class="jumbotron text-center" id="sobre-mim">
+      <div class="container">
+        <h2 class="jumbotron heading">Sobre mim</h2>
+        <p class="lead">
+          Meu nome é Lívia, tenho 22 anos e moro no Estado do Espírito Santo.
+          Meus hobbies são o estudo de linguas, jogos e séries
+        </p>
+      </div>
+    </section>
+
+    <!--Sessão Educação-->
+    <section class="jumbotron text-center" id="educacao">
+      <div class="container">
+        <h2 class="jumbotron heading">Educação</h2>
+        <p class="lead">
+          Atualmente estou no quarto periodo do curso de Engenharia de Software
+          na Faculdade UNINTER.
+        </p>
+        <p class="lead">Idiomas secundários: Inglês, Francês e Espanhol</p>
+      </div>
+    </section>
+
+    <!--Sessão Meus Projetos-->
+
+    <div class="album py-5 bg-light" id="projetos">
+      <div class="container">
+        <h2 class="jumbotron text-center">Meus projetos</h2>
+        <div class="row">
+          <div class="col-md-4">
+            <div class="card mb-4 box-shadow">
+              
+              <img
+                class="card-img-top"
+                data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail"
+                alt="Thumbnail [100%x225]"
+                style="height: 225px; width: 100%; display: block"
+                src="https://i.postimg.cc/wTyTPwrb/Whats-App-Image-2022-09-05-at-18-50-12.jpg"
+                data-holder-rendered="true"
+              />
+              <div class="card-body">
+                <p class="card-text">
+                  Landing page para promoção de Black Friday, para praticar o
+                  uso de HTML e CSS
+                </p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <a href="https://liviaimports.vercel.app/"
+                      ><button
+                        type="button"
+                        class="btn btn-sm btn-outline-success"
+                      >
+                        Ver projeto
+                      </button></a
+                    >
+                    <a
+                      href="https://github.com/liviabbotelho/desafio-landingpage-hiringcoders"
+                      ><button
+                        type="button"
+                        class="btn btn-sm btn-outline-primary"
+                      >
+                        Código
+                      </button></a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <section>
+      <div class="container-fluid" id="contato">
+        <h3 class="text-center">
+          Preencha o formulário abaixo para entrar em contato comigo
+        </h3>
+        <form>
+          <div class="form-group">
+            <label for="exampleFormControlInput1">Email</label>
+            <input
+              type="email"
+              class="form-control"
+              id="exampleFormControlInput1"
+              placeholder="name@example.com"
+            />
+          </div>
+          <div class="form-group">
+            <label for="exampleFormControlTextarea1">Mensagem</label>
+            <textarea
+              class="form-control"
+              id="exampleFormControlTextarea1"
+              rows="3"
+            ></textarea>
+          </div>
+          <div class="form-group row">
+            <div class="col-sm-10">
+              <button type="submit" class="btn btn-primary">Enviar</button>
+            </div>
+          </div>
+        </form>
+      </div>
+    </section>
+  </body>
+</html>
